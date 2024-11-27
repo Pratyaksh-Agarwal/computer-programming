@@ -1,4 +1,10 @@
-# Reverse a list.
-lst = [1, 2, 3, 4, 5]
-reversed_lst = lst[::-1]
-print("Reversed List:", reversed_lst)
+#1.You have a dictionary with nested dictionaries. You need to access values from the nested dictionaries.
+
+my_dict = {
+    'person1': {'name': 'John', 'age': 25},
+    'person2': {'name': 'Alice', 'age': 30}
+}
+print(my_dict['person1']['name'])  # Output: John
+print(my_dict['person2']['age'])   # Output: 30
+
+
